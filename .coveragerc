@@ -1,0 +1,7 @@
+[run]
+source = week1
+omit =
+    */test_*.py
+    */hello.py
+    */weather.py
+    */__main__.py
