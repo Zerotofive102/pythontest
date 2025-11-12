@@ -13,3 +13,6 @@ dependencies = [
 
 [project.scripts]
 weather-cli = "weather_cli:main"
+
+[tool.setuptools.packages.find]
+include = ["week1*"]   # 只打包 week1 目录
